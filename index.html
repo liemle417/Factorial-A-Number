@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Factorialize a Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container-fluid">       
+      <div class = "row">
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 background-1">
+          <h1 class = "challenge-title">Factorialize a Number</h1>
+          <p class = "description">
+            <span class="special">R</span>eturn the factorial of the provided integer. If the integer is represented with the letter n, 
+            a factorial is the product of all positive integers less than or equal to n.
+            Factorials are often represented with the shorthand notation n!           
+            For example: 5! = 1 * 2 * 3 * 4 * 5 = 120.
+            Only integers greater than or equal to zero will be supplied to the function.
+            <br>
+            <br>
+            <strong>Note:</strong> <u>170 is probably the largest factorial that Google's built-in calculator will
+             calculate</u>,
+             <br>returning the answer as 170! = 7.25741562 x 10306
+          </p>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 second-column background-2">
+          <div class="label_input">
+            <label>Please enter a positive number from 1 to 170: </label>
+
+            <input type="text" id="factorNum"><br>
+          </div>
+
+          <div class="all-button">
+            <button id="submitting">Submit</button>
+            <button id="randomize">Random</button>
+            <button id="clear">Clear</button>
+          </div>
+
+          <div class = "footer">
+            <p>Answer: </p>
+          
+            <p class="output"></p>
+          </div>
+
+        </div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
