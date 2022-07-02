@@ -7,6 +7,7 @@
   --color-secondary: #DDD7D4;
   --color-font: #265D5B;
   --color-wrapper: #E6F4F4;
+  --color-special-black: black;
   --color-neutral: white;
   --color-neutral-light: #D2D2D2;
   --font-small: 20px;
@@ -106,6 +107,24 @@ button{
   width: 80px;
   padding: 5px;
   margin: 15px 0;
+}
+
+#submitting,
+#randomize,
+#clear{
+  border-radius: 10px;
+}
+
+#randomize{
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #E6F4F4 20%, #ee5670 70%);
+  color: var(--color-special-black);
+  font-weight: bold;
+}
+
+#clear{
+  background-color: var(--color-wrapper);
+  color: var(--color-font);
 }
 
 .footer p:nth-child(1){
